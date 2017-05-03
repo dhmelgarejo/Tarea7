@@ -82,55 +82,47 @@ public class Principal {
 			"<th>Expected Value</th>"+
 			"<th>Actual Value</th>"+
 			"<tr>"+
-				"<td>Test 1</td>"+
+				"<td rowspan='9'>Test 1</td>"+
 				"<td>r</td>"+
 				"<td>0.954496574</td>"+
 				"<td>"+datos.getR()+"</td>"+
 			"</tr>"+
 			"<tr>"+
-				"<td>Test 1</td>"+
 				"<td>r2</td>"+
 				"<td>0.91106371</td>"+
 				"<td>"+datos.getR2()+"</td>"+
 			"</tr>"+
 			"<tr>"+
-				"<td>Test 1</td>"+
 				"<td>significancia</td>"+
 				"<td>1.77517E-05</td>"+
 				"<td>"+datos.getSignificancia()+"</td>"+
 			"</tr>"+
 			"<tr>"+
-				"<td>Test 1</td>"+
 				"<td>B0</td>"+
 				"<td>-22.55253275</td>"+
 				"<td>"+datos.getB0()+"</td>"+
 			"</tr>"+
 			"<tr>"+
-				"<td>Test 1</td>"+
 				"<td>B1</td>"+
 				"<td>1.727932426</td>"+
 				"<td>"+datos.getB1()+"</td>"+
 			"</tr>"+
 			"<tr>"+
-				"<td>Test 1</td>"+
 				"<td>Yk</td>"+
 				"<td>644.4293838</td>"+
 				"<td>"+datos.getYk()+"</td>"+
 			"</tr>"+
 			"<tr>"+
-				"<td>Test 1</td>"+
 				"<td>Range</td>"+
 				"<td>230.0017197</td>"+
 				"<td>"+datos.getRange70()+"</td>"+
 			"</tr>"+
 			"<tr>"+
-				"<td>Test 1</td>"+
 				"<td>UPI</td>"+
 				"<td>874.4311035</td>"+
 				"<td>"+datos.getUPI()+"</td>"+
 			"</tr>"+
 			"<tr>"+
-				"<td>Test 1</td>"+
 				"<td>LPI</td>"+
 				"<td>414.427664</td>"+
 				"<td>"+datos.getLPI()+"</td>"+
