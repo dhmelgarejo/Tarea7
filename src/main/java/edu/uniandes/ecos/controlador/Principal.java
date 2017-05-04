@@ -7,7 +7,7 @@ import static spark.Spark.*;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-import edu.uniandes.ecos.modelo.PersistenciaRegresionLineal;
+import edu.uniandes.ecos.modelo.Persistencia;
 import edu.uniandes.ecos.vista.Presentacion;
 
 
@@ -27,7 +27,7 @@ public class Principal {
 		String ruta1 = "target/classes/public/test1.txt";
 //		String ruta = "C:/Users/Melga/workspace/Programa7/src/main/resources/public/test3.txt";
 		
-		PersistenciaRegresionLineal datos = new PersistenciaRegresionLineal();
+		Persistencia datos = new Persistencia();
 		Lector lector = new Lector(datos);
 		try {
 			lector.leerArchivo(ruta1);
@@ -39,7 +39,7 @@ public class Principal {
 		//Impresion de resultados
 		
 		String ruta2 = "target/classes/public/test2.txt";
-		PersistenciaRegresionLineal datos2 = new PersistenciaRegresionLineal();
+		Persistencia datos2 = new Persistencia();
 		Lector lector2 = new Lector(datos2);
 		try {
 			lector2.leerArchivo(ruta2);
@@ -51,7 +51,7 @@ public class Principal {
 		Presentacion.mostrarResultados(datos2);
 		
 		String ruta3 = "target/classes/public/test3.txt";
-		PersistenciaRegresionLineal datos3 = new PersistenciaRegresionLineal();
+		Persistencia datos3 = new Persistencia();
 		Lector lector3 = new Lector(datos3);
 		try {
 			lector3.leerArchivo(ruta3);
@@ -63,7 +63,7 @@ public class Principal {
 		Presentacion.mostrarResultados(datos3);
 
 		String ruta4 = "target/classes/public/test4.txt";
-		PersistenciaRegresionLineal datos4 = new PersistenciaRegresionLineal();
+		Persistencia datos4 = new Persistencia();
 		Lector lector4 = new Lector(datos4);
 		try {
 			lector4.leerArchivo(ruta4);

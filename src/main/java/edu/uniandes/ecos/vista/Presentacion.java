@@ -1,6 +1,6 @@
 package edu.uniandes.ecos.vista;
 
-import edu.uniandes.ecos.modelo.PersistenciaRegresionLineal;
+import edu.uniandes.ecos.modelo.Persistencia;
 
 /**
  * Clase auxiliar para mostrar resultados de forma ordenada
@@ -14,7 +14,7 @@ public class Presentacion {
 	 * operaciones entre variables para calcular la integracion numerica con metodo de simpson
 	 * @param datos
 	 */
-	public static void mostrarResultados(PersistenciaRegresionLineal datos){
+	public static void mostrarResultados(Persistencia datos){
 
 		System.out.println("Resultado:");
 		System.out.println("B0: "+datos.getB0());

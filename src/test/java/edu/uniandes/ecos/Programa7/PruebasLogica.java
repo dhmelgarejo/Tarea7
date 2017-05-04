@@ -8,7 +8,7 @@ import org.junit.Test;
 public class PruebasLogica {
 
 	@Test
-	public void testCalcularXFinal() {
+	public void testCalcularSignificancia() {
 		assertEquals(-19, Logica.calcularSignificancia(10),0.001);
 		assertEquals(0.3, Logica.calcularSignificancia(0.35),0.001);
 		assertEquals(11, Logica.calcularSignificancia(-5),0.001);

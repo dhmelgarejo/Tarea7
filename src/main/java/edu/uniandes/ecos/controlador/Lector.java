@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import edu.uniandes.ecos.modelo.PersistenciaRegresionLineal;
+import edu.uniandes.ecos.modelo.Persistencia;
 
 /**
  * Clase para leer datos de entrada desde un archivo
@@ -13,7 +13,7 @@ import edu.uniandes.ecos.modelo.PersistenciaRegresionLineal;
  *
  */
 public class Lector {
-	private PersistenciaRegresionLineal datos;
+	private Persistencia datos;
 	private String ruta;
 	private BufferedReader br;
 	
@@ -21,7 +21,7 @@ public class Lector {
 	 * Constructor
 	 * @param datos
 	 */
-	public Lector(PersistenciaRegresionLineal datos){
+	public Lector(Persistencia datos){
 		this.datos = datos;
 	}
 	
